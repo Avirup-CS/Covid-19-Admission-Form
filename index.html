@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>COVID ADMISSION FORM</title>
+</head>
+<body>
+<body bgcolor="lightsalmon">
+<font face="calibri-bold" size="5" color="black">
+<font color="maroon">
+<h1><marquee behavior="scroll" scrollamount="15" bgcolor="mediumseagreen"><b>TECHNO COVID CARE HOSPITAL</b></marquee></h1></font>
+<br>
+<br>
+<center>
+<img src="hospital.jpg" alt="This is an image">
+</center>
+<br>
+<br>
+<font color="navy">
+<center><h3><u><b>COVID-19 PATIENT ADMISSION FORM</b></u></h3></center></font>
+<br>
+<br>
+<hr color="brown">
+<fieldset>
+<legend><h3><u><b><i>PATIENT INFORMATION:</i></b></u></h3></legend>
+<br>
+<form action="left">
+<label for="fname"><b>First Name: </b></label>
+<input type="text" placeholder="Enter First Name" id="fname" name="fname"><br><br>
+<label for="mname"><b>Middle Name: </b></label>
+<input type="text" placeholder="Enter Middle Name" id="mname" name="mname"><br><br>
+<label for="lname"><b>Last Name: </b></label>
+<input type="text" placeholder="Enter Last Name"id="lname" name="lname"><br><br>
+<b>Select Gender:</b>
+<br>
+<input type="radio" name="gender" value="male"> <b>Male</b><br>
+<input type="radio" name="gender" value="female"> <b>Female</b><br>
+<input type="radio" name="gender" value="others"> <b>Others</b><br><br>
+<label for="date"><b>Date of Birth: </b></label>
+ <input type="date" placeholder="Select date of birth" id="date"><br><br>
+<label for="weight"><b>Patient's weight (in kgs.): </b></label>
+<input type="number" name="weight" id="weight"><br><br>
+<label for="bloodgroup"><b>Blood group of Patient:</b></label>
+<select name="bloodgroup" id="bloodgroup">
+<option>Select Blood group</option>
+<option>A+</option>
+<option>A-</option>
+<option>B+</option>
+<option>B-</option>
+<option>AB+</option>
+<option>AB-</option>
+<option>O+</option>
+<option>O-</option>
+<option>Unknown</option>
+</select>
+<br><br>
+<label for="oxygensat"><b>Oxygen saturation (%SpO<sub>2</sub>): </b></label>
+<input type="number" name="oxygensat" id="oxygensat"><br><br>
+</fieldset>
+<br>
+<hr color="brown">
+<fieldset>
+<legend><h3><u><b><i>CONTACT INFORMATION:</i></b></u></h3></legend>
+<br>
+<label for="mob_no."><b>Mobile no.: </b></label>
+<input type="number" id="mob_no." placeholder="Enter Mobile no." name="mob_no.">
+<label for="opmobno."><b>Optional: </b></label>
+<input type="number" id="opmobno."  placeholder="optional" name="opmobno.">
+<br><br>
+<b>Address:   </b><textarea rows="10" cols="40"> </textarea>
+<br>
+<br>
+<label for="city"><b>City: </b></label>  
+<input type="text" id="city" placeholder="Enter City Name" name="city"><br><br>
+<label for="state"><b>State: </b></label>  
+<input type="text" id="state" placeholder="Enter State Name" name="state"><br><br>
+<label for="pincode"><b>Pin Code: </b></label>
+<input type="numeric" id="pincode" placeholder="Enter Pin Code" name="pincode">
+<br><br>
+<label for="guardianname"><b>Guardian Name of the patient: </b></label>
+<input type="text" id="guardianname" placeholder="Enter the Name" name="guardianname" ><br><br>
+<label for="guardianrelation"><b>Relationship with the patient: </b></label>
+<input type="text" id="guardianrelation" placeholder="Relationship" name="guardianrelation" ><br><br>
+<label for="email"><b>Enter your Email id: </b></label>
+<input type="email" id="email" placeholder="Enter Email id"name="email">
+<br><br>
+<label for="aadhaar_no."><b>Aadhaar Card no: </b></label>  
+<input type="numeric" id="aadhaar_no." placeholder="Enter Aadhaar No." name="aadhaar_no.">
+</fieldset>
+<br>
+<hr color="brown">
+<fieldset>
+<legend><h3><u><b><i>ADMIT INFORMATION:</i></b></u></h3></legend>
+<br>
+<label for="symptoms"><b>Symptoms of patient: </b> </label><br>
+<input type="checkbox" name="symptoms" value="high fever"><b>High Fever</b><br>
+<input type="checkbox" name="symptoms" value="headache"><b>Headache</b><br>
+<input type="checkbox" name="symptoms" value="difficultyinbreathing"><b>Difficulty in breathing</b><br>
+<input type="checkbox" name="symptoms" value="nosmell"><b>No Smell</b><br>
+<input type="checkbox" name="symptoms" value="bodypain"><b>Body Pain</b><br>
+<input type="checkbox" name="symptoms" value="notasteoffood"><b>No taste of food</b><br>
+<input type="checkbox" name="symptoms" value="others"><b>Others</b><br>
+<br>
+<label for="labconfirmcase"><b>Lab Confirmed Case Of COVID-19 In The Past 14 Days? </b></label>
+<input type="radio" name="yesno" value="Yes"> <b>Yes</b>
+<input type="radio" name="yesno" value="No"><b>No</b>
+<br><br>
+<label for="bedchoice"><b>Select Bed Choice: </b></label>
+<select name="bedchoice" id="bedchoice">
+<option>Select Bed Choice</option>
+<option>ISOLATION WARD (normal charges)</option>
+<option>ISOLATION CABIN (external charges)</option>
+</select>
+<br><br>
+<label for="medicalscheme"><b>Any Medical Scheme / SWASTHA SATHI SCHEME is available : </b></label>
+<input type="radio" name="yesno" value="Yes"> <b>Yes</b>
+<input type="radio" name="yesno" value="No"><b>No</b>
+</fieldset>
+<br>
+<hr color="brown">  
+<fieldset>
+<legend><h3><u><b><i>DOCUMENTS TO BE UPLOADED:</i></b></u></h3></legend>
+<br>
+<label for="up_patient_photo"><b>Upload Patient Photo: </b></label>
+<input type="file" id="up_patient_photo" name="up_patient_photo">
+<br><br>
+<label for="up_medicalscheme_photo"><b>Upload Medical Scheme (*if available): </b></label>
+<input type="file" id="up_medicalscheme_photo" name="up_medicalscheme_photo">
+<br><br>
+<label for="up_rtpcr_report"><b>Upload RT-PCR Test Report: </b</label>
+<input type="file" id="up_rtpcr_report" name="up_rtpcr_report">
+<br><br>
+<label for="up_covid_report"><b>Upload COVID Test Report (*if tested in last 7 days): </b></label>
+<input type="file" id="up_covid_report" name="up_covid_report">
+</fieldset>
+<br>
+<hr color="brown">
+<br>
+<center><b><input type="submit" value="Submit Form" style="height:50px;width:100px;color:darkblue;"><input type="reset" value="Reset data" style="height:50px;width:100px;color:darkblue;"></b></center></font>
+<br>
+<br>
+</form>
+</body>
+</html>
